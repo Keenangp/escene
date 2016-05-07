@@ -35,6 +35,16 @@
 	background-color: rgb(42, 167, 230);
 }
 
+#register-button,
+#login-button {
+	background-color: #731920;
+    border-radius: 5px;
+    color: white;
+    line-height: 5px;
+    margin-left: 3px;
+    border: 1px solid rgba(236, 225, 192, 0.95);
+}
+
 
 /* page wrapper ***************************************/
 
