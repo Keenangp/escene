@@ -13,3 +13,54 @@
  *= require_tree .
  *= require_self
  */
+
+
+/* navbar styles *************************************/
+
+#nav_font1,
+#nav_font2,
+#nav_font3 {
+	color: #3E4B58;
+}
+
+#navbar_logo {
+	color: white;
+	font-weight: 900;
+}
+
+
+.navbar {
+	border-radius: 0px;
+	border-bottom: 2px solid gray;
+	background-color: rgb(42, 167, 230);
+}
+
+
+/* page wrapper ***************************************/
+
+html, body {
+	height: 100%;
+}
+
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: -80px;
+}
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+
+/* footer styles **************************************/
+
+.site-footer, .page-wrap:after {
+	height: 80px;
+
+}
+
+.site-footer {
+	background-color: white;
+    color: black;
+    font-weight: 900;
+}

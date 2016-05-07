@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <title>Escene</title>
+
+  <!--bootstrap precedes custom css-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+  <meta name = "viewport" content="width=device-width, initial-scale=1">
+
   <%= csrf_meta_tags %>
+
+  <!--jquery already included, add bootstrap JS cdn here -->
+
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </head>
+
 <body>
+<div class="page-wrapper">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" id="navbar_logo" href="#">eScene</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a id="nav_font1" href="#">Page 1</a></li>
+            <li><a id="nav_font2" href="#">Page 2</a></li>
+            <li><a id="nav_font3" href="#">Page 3</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
 <%= yield %>
 
+  </div><!-- / page wrapper -->
+  
+  <footer class="site-footer">
+   &copy; Keenan Parker Web d.
+  </footer>
+
 </body>
+
 </html>
