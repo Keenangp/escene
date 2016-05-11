@@ -20,7 +20,7 @@
 #nav_font1,
 #nav_font2,
 #nav_font3 {
-	color: #3E4B58;
+	color: white;
 }
 
 #navbar_logo {
@@ -33,15 +33,29 @@
 	border-radius: 0px;
 	border-bottom: 2px solid gray;
 	background-color: rgb(42, 167, 230);
+	height: 35px;
+}
+
+.dropdown-menu {
+	background-color: rgb(233, 30, 99);
+	a {
+		color: white;
+	}
+}
+
+.navbar-toggle {
+	background-color: rgb(233, 30, 99);
 }
 
 #register-button,
 #login-button {
-	background-color: #731920;
+	background-color: rgb(233, 30, 99);
     border-radius: 5px;
     color: white;
     line-height: 5px;
     margin-left: 3px;
+    margin-top: 7px;
+    height: 35px;
     border: 1px solid rgba(236, 225, 192, 0.95);
 }
 
