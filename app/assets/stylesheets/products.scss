@@ -1,8 +1,17 @@
 $font-stack1: Futura, Franklin Gothic Medium, Arial, Sans-serif;
 
 @font-face {
-	font-family: billo;
-	src: url('assets/BILLO__.TTF')
+    font-family: 'billoregular';
+    src: url('billo-webfont.woff2') format('woff2'),
+         url('billo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: "Harabara";
+	src: url(font-path("harabara.ttf"));
 }
 
 .page-wrapper-products {
@@ -12,18 +21,12 @@ $font-stack1: Futura, Franklin Gothic Medium, Arial, Sans-serif;
 
 h3 {
 	 font-size: 7em;
-	 font-family: $font-stack1;
-	 color: rgba(114, 214, 255, 0.74);
+	 font-family: billoregular;
+	 color: white;
 	 position: relative;
 	 background-color: black;
-	 
-	 span {
-	 	position: absolute;
-	 	background: url(brushed_metal.png);
-	 	display: block;
-	 	width: 100%;
-	 	height: 100px;
-	 }
+	 text-align: center;
+	 padding-top: 15px;
 }
 
 table {
