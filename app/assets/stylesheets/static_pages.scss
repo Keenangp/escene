@@ -37,7 +37,10 @@ $font-stack2: Big Caslon, Georgia, serif;
 
 .lander_intro {
 	margin-bottom: 20px;
-	background-color: black;
+	background-image: image-url("halftone.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no repeat;
     margin-left: -15px;
     margin-right: -15px;
     padding-top: 1px;
@@ -63,15 +66,6 @@ $font-stack2: Big Caslon, Georgia, serif;
 	 position: relative;
 	 margin-top: 25px;
 	 text-align: center;
- }
-
- h4,
- #lander_p {
- 	text-align: center;
- 	font-family: $font-stack1;
- 	color: white;
- 	-webkit-font-smoothing: antialiased;
-    text-shadow: rgba(0,0,0,.01) 0 0 1px;
  }
 }
 
@@ -99,4 +93,5 @@ $font-stack2: Big Caslon, Georgia, serif;
 	margin-bottom: 5px;
 	color: white;
 	margin-left: -20px;
+	border-radius: 8px;
 }

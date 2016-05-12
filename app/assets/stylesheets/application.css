@@ -28,13 +28,36 @@
 	font-weight: 900;
 }
 
+#register-button,
+#login-button {
+    border-radius: 5px;
+    color: white;
+    line-height: 5px;
+    margin-left: 3px;
+    margin-top: 7px;
+    height: 35px;
+    border: 1px solid rgba(236, 225, 192, 0.95);
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff5d98+0,ef0158+56 */
+background: rgb(255,93,152); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,93,152,1) 0%, rgba(239,1,88,1) 56%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,93,152,1) 0%,rgba(239,1,88,1) 56%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,93,152,1) 0%,rgba(239,1,88,1) 56%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5d98', endColorstr='#ef0158',GradientType=0 ); /* IE6-9 */
+
+}
+
 
 .navbar {
 	border-radius: 0px;
 	border-bottom: 2px solid gray;
-	background-color: rgb(42, 167, 230);
 	height: 35px;
+background: rgb(248,80,50); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%,rgba(241,111,92,1) 50%,rgba(246,41,12,1) 51%,rgba(240,47,23,1) 71%,rgba(231,56,39,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(248,80,50,1) 0%,rgba(241,111,92,1) 50%,rgba(246,41,12,1) 51%,rgba(240,47,23,1) 71%,rgba(231,56,39,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827',GradientType=0 ); /* IE6-9 */;
 }
+
 
 .dropdown-menu {
 	background-color: rgb(233, 30, 99);
@@ -45,18 +68,6 @@
 
 .navbar-toggle {
 	background-color: rgb(233, 30, 99);
-}
-
-#register-button,
-#login-button {
-	background-color: rgb(233, 30, 99);
-    border-radius: 5px;
-    color: white;
-    line-height: 5px;
-    margin-left: 3px;
-    margin-top: 7px;
-    height: 35px;
-    border: 1px solid rgba(236, 225, 192, 0.95);
 }
 
 
