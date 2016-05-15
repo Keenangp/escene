@@ -30,6 +30,7 @@ h3 {
 	 background-repeat: no repeat;
 	 text-align: center;
 	 padding-top: 25px;
+	 padding-bottom: 25px;
 }
 
 table {
@@ -42,5 +43,26 @@ table {
 }
 
 .product-list-display {
-	border: 1px solid white;
+	background-color: black;
+    border: 1px solid gray;
+    color: white;
+    margin: 1%;
+    width: 225px;
 }
+
+#new-prod-button,
+#prod-show-button,
+#prod-edit-button,
+#prod-destroy-button {
+	background: rgb(255,93,152); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,93,152,1) 0%, rgba(239,1,88,1) 56%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(255,93,152,1) 0%,rgba(239,1,88,1) 56%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255,93,152,1) 0%,rgba(239,1,88,1) 56%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5d98', endColorstr='#ef0158',GradientType=0 ); /* IE6-9 */
+    margin: auto;
+      a {
+    color: white;
+  }
+}
+
+
