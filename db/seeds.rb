@@ -6,3 +6,14 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+Product.create(:name => 'Counter Logic T-Shirt', :description => 'Defy logic with this Counter Logic Jersey', :image_url => 'counterlogic_tee.jpg', :price => '69.99')
+
+Product.create(:name => 'Cloud 9 T-Shirt', :description => 'Keep it breezy with this lightweight Cloud 9 jersey', :image_url => 'cloud_9_tee.jpg', :price => '59.99')
+
+Product.create(:name => 'Fnatic T-Shirt', :description => 'Get crazy with Fnatic\'s favourite T-Shirt', :image_url => 'fanatic_tee.jpg', :price => '40.00')
+
+Product.create(:name => 'SK Gaming Polo', :description => 'Stay cool and collected with this SK gaming polo', :image_url => 'sk_tee.jpg', :price => '45.00')
+
+Product.create(:name => 'Evil Geniuses T-Shirt', :description => 'Plot your rise to success with this Evil Geniuses tee', :image_url => 'evil_geniuses_tee.jpg', :price => '24.00')
+
+Product.create(:name => 'Solo Mid T-Shirt', :description => 'Play it low-key with a team solomid tee', :image_url => 'solodmid_tee.jpg', :price => '29.99')
