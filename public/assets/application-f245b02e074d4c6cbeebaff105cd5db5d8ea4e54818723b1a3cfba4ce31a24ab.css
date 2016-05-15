@@ -1,0 +1,320 @@
+@font-face {
+  font-family: 'billoregular';
+  src: url("billo-webfont.woff2") format("woff2"), url("billo-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Harabara";
+  src: url("/fonts/harabara.ttf");
+}
+/* line 17, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/products.scss */
+.page-wrapper-products {
+  margin-top: 50px;
+}
+
+/* line 22, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/products.scss */
+h3 {
+  font-size: 7em;
+  font-family: billoregular;
+  color: white;
+  position: relative;
+  background-image: url(/assets/halftone-4a8870fe44f0cf4d07931b5801a58f9d142f27ac63a37accbd69acb0ca9833e6.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no repeat;
+  text-align: center;
+  padding-top: 25px;
+}
+
+/* line 35, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/products.scss */
+table {
+  margin-left: 20px;
+}
+
+/* line 39, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/products.scss */
+.selector {
+  margin-left: 20px;
+  font-family: Futura, Franklin Gothic Medium, Arial, Sans-serif;
+}
+
+/* line 44, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/products.scss */
+.product-list-display {
+  border: 1px solid black;
+}
+/* line 1, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+@font-face {
+  font-family: 'billoregular';
+  src: url("billo-webfont.woff2") format("woff2"), url("billo-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 15, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/static_pages.scss */
+.thumbnails {
+  margin-left: -15px;
+  margin-right: -15px;
+  height: 500px;
+  background-color: black;
+}
+
+/* line 22, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/static_pages.scss */
+.thumbnail {
+  border-radius: 0px;
+  margin: 4%;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  /* line 30, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/static_pages.scss */
+  #logo_info_p_1,
+  #logo_info_p_2,
+  #logo_info_p_3 {
+    display: none;
+  }
+}
+/* line 38, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/static_pages.scss */
+.lander_intro {
+  margin-bottom: 20px;
+  background-image: url(/assets/halftone-4a8870fe44f0cf4d07931b5801a58f9d142f27ac63a37accbd69acb0ca9833e6.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no repeat;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-top: 1px;
+  margin-top: 35px;
+}
+/* line 48, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/static_pages.scss */
+.lander_intro h1 {
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.45);
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+/* line 56, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/static_pages.scss */
+.row {
+  width: 100%;
+  margin: auto;
+}
+
+/* Typography ********/
+/* line 64, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/static_pages.scss */
+.container-fluid h1 {
+  font-size: 8em;
+  font-family: billoregular;
+  color: white;
+  position: relative;
+  margin-top: 25px;
+  text-align: center;
+}
+
+/* line 74, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/static_pages.scss */
+.logo {
+  margin-bottom: 2%;
+}
+/* line 76, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/static_pages.scss */
+.logo .img-responsive {
+  border-radius: 10%;
+  border: 1px solid gray;
+}
+
+/* line 82, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/static_pages.scss */
+#product_logos {
+  float: right;
+  margin-right: 25px;
+}
+
+/* logo info section *****************/
+/* line 89, /Users/valenciacurbello/Desktop/escene/app/assets/stylesheets/static_pages.scss */
+#logo_info_p_1,
+#logo_info_p_2,
+#logo_info_p_3 {
+  min-width: 180px;
+  min-height: 160px;
+  background-color: black;
+  margin-bottom: 5px;
+  color: white;
+  margin-left: -20px;
+  border-radius: 8px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+/* navbar styles *************************************/
+
+
+#nav_font1,
+#nav_font2,
+#nav_font3 {
+	color: white;
+}
+
+#navbar_logo {
+	color: white;
+	font-weight: 900;
+}
+
+#register-button,
+#login-button {
+    border-radius: 5px;
+    color: white;
+    line-height: 5px;
+    margin-left: 3px;
+    margin-top: 7px;
+    height: 35px;
+    border: 1px solid rgba(236, 225, 192, 0.95);
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff5d98+0,ef0158+56 */
+background: rgb(255,93,152); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,93,152,1) 0%, rgba(239,1,88,1) 56%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,93,152,1) 0%,rgba(239,1,88,1) 56%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,93,152,1) 0%,rgba(239,1,88,1) 56%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5d98', endColorstr='#ef0158',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.navbar {
+	border-radius: 0px;
+	border-bottom: 2px solid gray;
+	height: 35px;
+background: rgb(248,80,50); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(248,80,50,1) 0%,rgba(241,111,92,1) 50%,rgba(246,41,12,1) 51%,rgba(240,47,23,1) 71%,rgba(231,56,39,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(248,80,50,1) 0%,rgba(241,111,92,1) 50%,rgba(246,41,12,1) 51%,rgba(240,47,23,1) 71%,rgba(231,56,39,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827',GradientType=0 ); /* IE6-9 */;
+}
+
+
+.dropdown-menu {
+	background-color: rgb(233, 30, 99);
+	a {
+		color: white;
+	}
+}
+
+.navbar-toggle {
+	background-color: rgb(233, 30, 99);
+}
+
+
+/* page wrapper ***************************************/
+
+html, body {
+	height: 100%;
+}
+
+.page-wrap {
+	min-height: 100%;
+	margin-bottom: -80px;
+}
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+
+/* footer styles **************************************/
+
+.site-footer, .page-wrap:after {
+	height: 80px;
+
+}
+
+.site-footer {
+	background-color: white;
+    color: black;
+    font-weight: 900;
+}
