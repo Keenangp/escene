@@ -15,7 +15,7 @@
 #});
 
 $(document).ready ->
-  $('.img-responsive').hover (->
+  $('.logo-pic').hover (->
     $(this).css 'border', '3px solid black'
     return
   ), ->

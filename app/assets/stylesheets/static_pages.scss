@@ -73,7 +73,7 @@ $font-stack2: Big Caslon, Georgia, serif;
 
 .logo {
 	margin-bottom: 2%;
-	.img-responsive {
+	.logo-pic {
 		border-radius: 10%;
 		border: 1px solid gray;
 	}
@@ -86,14 +86,33 @@ $font-stack2: Big Caslon, Georgia, serif;
 
 /* logo info section *****************/
 
-#logo_info_p_1,
-#logo_info_p_2,
-#logo_info_p_3 {
-	min-width: 180px;
-	min-height: 160px;
-	background-color: black;
-	margin-bottom: 5px;
-	color: white;
-	margin-left: -20px;
-	border-radius: 8px;
+#logo_info_p_1 {
+    height: 500px;
+    width: 250px;
+    margin-left: -30px;
+    background-color: black;
+    border: 1px solid gray;
+    margin-top: -20px;
+    overflow-y: scroll;
 }
+
+.scroll-info-section {
+	height: 700px;
+}
+
+/* Carousel Section ******************/
+
+#myCarousel {
+	width: 200px;
+	float: right;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+#left,
+#right {
+	border-radius: 10px;
+}
+
+
+
