@@ -1,6 +1,7 @@
 class StaticPagesController < ApplicationController
 
   def index
+  	@products = Product.first(4).reverse
   end
 
   def landing_page

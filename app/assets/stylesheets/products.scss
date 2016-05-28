@@ -48,7 +48,17 @@ table {
     color: white;
     margin: 1%;
     width: 225px;
+    border-radius: 10px;
 }
+
+@media screen and (max-width: 1270px) {
+	.product-list-display {
+	width: 160px;
+	height: 337px;
+	}
+}
+
+
 
 #new-prod-button,
 #prod-show-button,
@@ -65,4 +75,12 @@ table {
   }
 }
 
+.new-product-form {
+	margin-top: 50px;
+	margin-left: 15px;
+}
 
+.edit-products-form {
+	margin-top: 50px;
+	margin-left: 15px;
+}
