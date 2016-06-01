@@ -30,7 +30,8 @@
 }
 
 #register-button,
-#login-button {
+#login-button,
+.submit-button {
     border-radius: 5px;
     color: white;
     line-height: 5px;
@@ -78,6 +79,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', end
 	background-color: rgb(233, 30, 99);
 }
 
+#q {
+	border-radius: 10px;
+	position: relative;
+	top: -3px;
+}
+
+.search-bar-title {
+	color: white;
+}
+
+.submit-button {
+	position: relative;
+	top: -5px;
+}
+
+.email-input-login,
+.password-input-login {
+	width: 95%;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+}
+
+.login-submit {
+	margin-left: 60px;
+    margin-top: 10px;
+}
 
 /* page wrapper ***************************************/
 
