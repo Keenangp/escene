@@ -1,13 +1,31 @@
-test <br>
-test <br>
-test <br>
-test <br>
-test <br>
+<div class="contact-section">
 
+  <h4>Send an email</h4>
 
-<%= i = 0 %>
-<% while i < 100 %>
-<%=  x = "abcd"[rand(4)].chr %>
-<%=  puts 'x' %>
-<%=  i += 1 %>
-<% end %>
+  <%= flash[:notice] %>
+
+  <%= form_tag("/static_pages/thank_you") do %> <!--calling the action in the static_pages controller-->
+  <div class="row">
+    <div class="col-md-4">
+      <div class="form-group">
+        <%= label_tag :name, "Name" %>
+        <%= text_field_tag :name, nil, class: "form-control", placeholder: "enter name" %>
+      </div><!--/form-group-->
+
+      <div class="form-group">
+        <%= label_tag :email, "Email Address" %>
+        <%= text_field_tag :email, nil, class: "form-control", placeholder: "Enter Email" %>
+      </div><!--/form-group-->
+
+      <div class="form-group">
+        <%= label_tag :message, "Message" %>
+        <%= text_area_tag :message, nil, class: "form-control", placeholder: "Enter Message" %>
+      </div><!--/form-group-->
+    
+    </div><!--/col-->
+  </div><!--/row-->
+
+  <%= submit_tag "send" %>
+  <% end %>
+
+</div><!--/contact-section-->
